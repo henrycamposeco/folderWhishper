@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  turbopack: {},
   devIndicators: false,
   webpack: (config, { isServer, webpack }) => {
     // Enable WASM + top-level await

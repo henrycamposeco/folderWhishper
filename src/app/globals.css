@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
 
 :root {
-  --bg-base: #080c14;
+  --bg-base: #0f0f0f;
   --bg-surface: #0d1220;
   --bg-elevated: #111827;
   --bg-glass: rgba(17, 24, 39, 0.6);
@@ -178,7 +178,7 @@ body::after {
   color: var(--accent-primary);
   border: 1px solid var(--border-default);
   border-radius: var(--radius-md);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;

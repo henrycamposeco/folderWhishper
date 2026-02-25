@@ -118,22 +118,6 @@ export function Sidebar({
             {/* ─── Logo + language switcher ─── */}
             <div className="sidebar-header">
                 <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "16px" }}>
-                    <div
-                        style={{
-                            width: "38px",
-                            height: "38px",
-                            background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
-                            borderRadius: "11px",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontSize: "20px",
-                            boxShadow: "0 4px 14px rgba(99,102,241,0.45)",
-                            flexShrink: 0,
-                        }}
-                    >
-                        🪄
-                    </div>
                     <div style={{ flex: 1 }}>
                         <h1 style={{ fontSize: "15px", fontWeight: "800", color: "var(--text-primary)", letterSpacing: "-0.2px" }}>
                             {t.app.name}

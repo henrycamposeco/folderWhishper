@@ -277,7 +277,7 @@ export function ChatPanel({
             <div className="messages-area">
                 {messages.length === 0 ? (
                     <div className="welcome-screen">
-                        <div className="welcome-icon">🪄</div>
+                        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXNxcjlvM3didDZ4NTlicDFwYXZtOHMwOWltdXVqcXF3c2V4N3g0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iZXKuPtlTiCOJpeVMX/giphy.gif" alt="Logo" style={{ width: "300px", height: "300px", borderRadius: "12px", marginBottom: "16px" }} />
                         <div>
                             <h2 style={{ fontSize: "22px", fontWeight: "700", marginBottom: "8px" }}>
                                 FolderWhisper
